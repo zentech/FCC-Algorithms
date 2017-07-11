@@ -7,6 +7,7 @@ function fearNotLetter(str) {
   for(var i = 0; i < str.length; i++) {
     //compare the ascii in string with ascii in code sequence
     if(str.charCodeAt(i) !== code) {
+        //convert from ascii number to letter
         return String.fromCharCode(code);
     }
     code++;
