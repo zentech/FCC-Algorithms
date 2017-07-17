@@ -9,6 +9,7 @@ function steamrollArray(arr) {
   }
   else {
     for(var i in a) {
+        console.log(a[i]);
       stripArr(a[i]);
     }
   }
